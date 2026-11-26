@@ -11,6 +11,8 @@ brah wtf is a krimp
 
 Krimply is a simple yet powerful cross-platform video editor.
 
+**rimply is a fork off [shrimply](https://github.com/soirihiroka/shrimply/)**
+
 System requirements:
 - GPU: Nvidia (Turing - Blackwell) | Intel (Linux GTK) | Apple Silicon GPU
 - OS: Fedora 44 or equivalent | macOS 15+ | Windows 10+ (Community support)
