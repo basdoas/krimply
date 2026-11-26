@@ -7,13 +7,14 @@
 </p>
 
 
-# Shrimply
+# Krimply
 
-**you're telling me a shrimp made this video?! Σ( ﾟдﾟ)**
+**you're telling me a krimp made this video?!**
+brah wtf is a krimp
 
 <img width="1150" height="791" alt="image" src="https://github.com/user-attachments/assets/97bbadac-d930-46ae-9df8-033bd81ab6ce" />
 
-Shrimply is a simple yet powerful cross-platform video editor.
+Krimply is a simple yet powerful cross-platform video editor.
 
 System requirements:
 - GPU: Nvidia (Turing - Blackwell) | Intel (Linux GTK) | Apple Silicon GPU
@@ -21,27 +22,15 @@ System requirements:
 - CPU: X86-64 (Linux/Windows) | Apple Silicon (macOS)
 - Display environment: Wayland is required for Linux
 
-Platform support status:
+However, if you noticed any performance/correctness issue, please open issues in [main project (recomended)](https://github.com/soirihiroka/shrimply/issues) or [this project](https://github.com/basdoas/krimply/issues).
 
-<img width="300" height="396" alt="platformsupport-" src="https://github.com/user-attachments/assets/2631184e-ad24-4cb5-80ff-d2af377933ca" />
-
-Shrimply is by large a personal software, which means you should expect:
-
-- Major changes in behavior
-- Extremely frequent updates when I am editing a video
-- Slop
-- Undocumented footguns
-- Lack of QA on machines that I don't have
-
-However, if you noticed any performance/correctness issue, please open [issues](https://github.com/soirihiroka/shrimply/issues). I will look into it.
-
-See the [documentation](https://shrimply.pages.dev) for more.
+See the original program shrimply's [documentation](https://shrimply.pages.dev) for more.
 
 ## Contributing
 
 Contributions are welcome.
 
-- Report and investigate [issues](https://github.com/soirihiroka/shrimply/issues)
+- Report and investigate in [main (recomended)](https://github.com/soirihiroka/shrimply/issues) [fork](https://github.com/basdoas/krimply/issues)
 - Improve the documentation
 - Translate the interface
 - Test editing workflows and project importers
@@ -62,7 +51,3 @@ SDK](https://developer.nvidia.com/video-codec-sdk), as well as separately
 licensed model weights. Those components retain their own license terms; see
 the [license documentation](docs/source/licenses.rst) and
 [third-party notices](THIRDPARTY.md) for details.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=soirihiroka/shrimply&type=Date)](https://www.star-history.com/#soirihiroka/shrimply&Date)
