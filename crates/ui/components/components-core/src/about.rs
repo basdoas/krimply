@@ -18,6 +18,12 @@ pub const LINKS: &[(&str, &str)] = &[
 pub const CREDIT_SECTIONS: &[(&str, &[&str])] = &[
     ("Maintainers", &[DEVELOPER]),
     ("Agents", &["ChatGPT", "Gemini", "Claude"]),
-    ("Artwork", &["Icon by sadgabi20", "Loading screen by ishto"]),
+    (
+        "Artwork",
+        &[
+            "Icon by basdoas (inspired by the Shrimply icon by sadgabi20)",
+            "Loading screen by ishto",
+        ],
+    ),
 ];
 pub const ICON_NAME: &str = "dev.shrimply.Shrimply";

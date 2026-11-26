@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 128 128">
-  <title>Shrimply — symbolic</title>
-  <desc>A solid white shrimp silhouette with a transparent eye and split tail.</desc>
-  <path fill="#ffffff" fill-rule="evenodd" transform="translate(.5 4)" d="M12 18H78C99 18 116 37 116 60C116 83 100 102 80 102C91 102 99 92 99 81C99 69 91 61 80 61H48C28 61 12 42 12 18Z M12 77L80 102H34C21 102 12 92 12 77Z M48 77H59C71 77 80 88 80 102Z M38 34A4.5 4.5 0 1 1 29 34A4.5 4.5 0 1 1 38 34Z"/>
+  <title>Krimply — symbolic</title>
+  <desc>A solid white shrimp silhouette with transparent eye and furrowed brow.</desc>
+  <path fill="#ffffff" fill-rule="evenodd" transform="translate(0 -7.7)" d="M11.772 35.986 C25.707 18.231 43.557 21.292 63.897 21.292 L81.379 21.292 L120.587 44.258 C123.391 58.121 122.1 75.049 117.7 87.345 C104.179 125.129 58.321 134.933 27.163 110.389 C24.134 108.003 24.571 95.298 34.47 104.298 C38.678 108.123 45.349 114.891 52.398 114.891 C64.616 115.993 33.099 97.147 37.652 97.885 C47.731 96.45 53.043 101.134 58.921 108.496 C68.649 120.678 93.845 100.772 92.499 85.241 C91.196 70.209 65.363 69.425 52.94 74.585 C26.907 85.4 -5.49 57.979 11.772 35.986 Z M22.475 48.026 A6.842 6.953 0 1 0 36.159 48.026 A6.842 6.953 0 1 0 22.475 48.026 Z M16.042 39.861 L38.523 28.966 L40.703 33.466 L18.222 44.361 Z"/>
 </svg>

@@ -1,97 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
-  <title>Shrimply — macOS</title>
-  <desc>A flowing coral shrimp with soft glass lighting on a dark continuous-corner squircle.</desc>
+  <title>Krimply — macOS</title>
+  <desc>The Krimply shrimp with a furrowed brow on a dark rounded tile.</desc>
   <defs>
-    <path id="tile" d="M42 8H86C99 8 106 10 112 16C118 22 120 29 120 42V86C120 99 118 106 112 112C106 118 99 120 86 120H42C29 120 22 118 16 112C10 106 8 99 8 86V42C8 29 10 22 16 16C22 10 29 8 42 8Z"/>
-    <path id="shrimp" d="M12 18H78C99 18 116 37 116 60C116 83 100 102 80 102C91 102 99 92 99 81C99 69 91 61 80 61H48C28 61 12 42 12 18Z M12 77L80 102H34C21 102 12 92 12 77Z M48 77H59C71 77 80 88 80 102Z"/>
+    <path id="shrimp" d="M11.772 35.986 C25.707 18.231 43.557 21.292 63.897 21.292 L81.379 21.292 L120.587 44.258 C123.391 58.121 122.1 75.049 117.7 87.345 C104.179 125.129 58.321 134.933 27.163 110.389 C24.134 108.003 24.571 95.298 34.47 104.298 C38.678 108.123 45.349 114.891 52.398 114.891 C64.616 115.993 33.099 97.147 37.652 97.885 C47.731 96.45 53.043 101.134 58.921 108.496 C68.649 120.678 93.845 100.772 92.499 85.241 C91.196 70.209 65.363 69.425 52.94 74.585 C26.907 85.4 -5.49 57.979 11.772 35.986 Z"/>
     <linearGradient id="background" x1="0" y1="0" x2=".8" y2="1">
-      <stop stop-color="#363841"/>
-      <stop offset=".52" stop-color="#202127"/>
-      <stop offset="1" stop-color="#15161b"/>
+      <stop stop-color="#2b3a4d"/>
+      <stop offset=".55" stop-color="#1b2431"/>
+      <stop offset="1" stop-color="#121821"/>
     </linearGradient>
-    <radialGradient id="tile-light" gradientUnits="userSpaceOnUse" cx="30" cy="8" r="116">
-      <stop stop-color="#b7c5db" stop-opacity=".14"/>
-      <stop offset=".7" stop-color="#8797b5" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="tile-light-bottom" gradientUnits="userSpaceOnUse" cx="119" cy="119" r="76">
-      <stop stop-color="#d3d9ec" stop-opacity=".23"/>
-      <stop offset=".4" stop-color="#a9b6d2" stop-opacity=".08"/>
-      <stop offset="1" stop-color="#a9b6d2" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="reflected-coral" gradientUnits="userSpaceOnUse" cx="85" cy="98" r="57">
-      <stop stop-color="#f14a79" stop-opacity=".14"/>
-      <stop offset="1" stop-color="#ed5783" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="rim" gradientUnits="userSpaceOnUse" x1="12" y1="12" x2="116" y2="116">
-      <stop stop-color="#edf2ff" stop-opacity=".6"/>
-      <stop offset=".25" stop-color="#d0d9ef" stop-opacity=".15"/>
-      <stop offset=".5" stop-color="#c4cce0" stop-opacity=".025"/>
-      <stop offset=".75" stop-color="#d3dbea" stop-opacity=".15"/>
-      <stop offset="1" stop-color="#edf0ff" stop-opacity=".6"/>
+    <linearGradient id="tile-light" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffffff" stop-opacity=".12"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="shell" gradientUnits="userSpaceOnUse" x1="22" y1="18" x2="91" y2="102">
-      <stop stop-color="#ffb16b"/>
-      <stop offset=".44" stop-color="#ff8069"/>
-      <stop offset="1" stop-color="#fb4b96"/>
-    </linearGradient>
-    <radialGradient id="glass-light" gradientUnits="userSpaceOnUse" cx="35" cy="17" r="88" gradientTransform="translate(0 8) scale(1 .8)">
-      <stop stop-color="#fff5e6" stop-opacity=".3"/>
-      <stop offset=".8" stop-color="#fff0e5" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="curl-light" gradientUnits="userSpaceOnUse" cx="113" cy="65" r="42">
-      <stop stop-color="#ffe9f5" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#ffd0eb" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="seam-fade" gradientUnits="userSpaceOnUse" cx="80" cy="102" r="24">
-      <stop offset=".2" stop-color="#000"/>
-      <stop offset=".65" stop-color="#777"/>
-      <stop offset="1" stop-color="#fff"/>
-    </radialGradient>
-    <mask id="soft-junction" maskUnits="userSpaceOnUse" x="0" y="0" width="128" height="128">
-      <rect width="128" height="128" fill="url(#seam-fade)"/>
-    </mask>
-    <!-- Light stays inside the silhouette, with no offset copy or contour stroke. -->
-    <filter id="glass-volume" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="1.25" result="soft-alpha"/>
-      <feOffset in="soft-alpha" dx=".4" dy="1.15" result="below"/>
-      <feComposite in="SourceAlpha" in2="below" operator="out" result="upper-edge"/>
-      <feFlood flood-color="#fff5e9" flood-opacity=".65" result="light"/>
-      <feComposite in="light" in2="upper-edge" operator="in" result="reflection"/>
-      <feOffset in="soft-alpha" dx="-.3" dy="-1" result="above"/>
-      <feComposite in="SourceAlpha" in2="above" operator="out" result="lower-edge"/>
-      <feFlood flood-color="#98174e" flood-opacity=".3" result="shade"/>
-      <feComposite in="shade" in2="lower-edge" operator="in" result="refraction"/>
-      <feMerge><feMergeNode in="refraction"/><feMergeNode in="reflection"/></feMerge>
-    </filter>
-    <linearGradient id="eye" x1="0" y1="0" x2=".6" y2="1">
-      <stop stop-color="#3f2b29"/>
-      <stop offset="1" stop-color="#211e24"/>
+    <linearGradient id="shell" gradientUnits="userSpaceOnUse" x1="6.924" y1="72.47" x2="122.069" y2="72.47">
+      <stop offset="0" stop-color="#29abe2"/>
+      <stop offset="1" stop-color="#2e3192"/>
     </linearGradient>
     <filter id="shrimp-shadow" x="-.15" y="-.15" width="1.3" height="1.35" color-interpolation-filters="sRGB">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="1.6"/>
-      <feOffset dy="1.6"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .32 0"/>
-      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="tile-shadow" x="-.2" y="-.2" width="1.4" height="1.5" color-interpolation-filters="sRGB">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="1.8"/>
-      <feOffset dy="2"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .24 0"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.4"/>
+      <feOffset dy="2.4"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .35 0"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <use href="#tile" fill="url(#background)" filter="url(#tile-shadow)"/>
-  <use href="#tile" fill="url(#tile-light)"/>
-  <use href="#tile" fill="url(#tile-light-bottom)"/>
-  <use href="#tile" fill="url(#reflected-coral)"/>
-  <use href="#tile" fill="none" stroke="url(#rim)" stroke-width=".7"/>
-  <!-- Optical centering balances the heavier upper body inside the tile. -->
-  <g transform="translate(13.3 16.4) scale(.8)">
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#background)"/>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#tile-light)"/>
+  <g transform="translate(20.5 15.2) scale(.68)">
     <use href="#shrimp" fill="url(#shell)" filter="url(#shrimp-shadow)"/>
-    <use href="#shrimp" fill="url(#glass-light)"/>
-    <use href="#shrimp" fill="url(#curl-light)"/>
-    <use href="#shrimp" fill="#fff" filter="url(#glass-volume)" mask="url(#soft-junction)"/>
-    <circle cx="33.5" cy="34" r="4.5" fill="url(#eye)"/>
+    <polyline points="81.379,21.292 29.317,74.367 120.587,44.258" fill="#3655d5"/>
+    <polyline points="81.379,21.292 52.252,59.386 120.587,44.258" fill="#3675d5"/>
+    <polyline points="81.379,21.292 64.496,48.026 120.587,44.258" fill="#3689d5"/>
+    <polyline points="81.379,21.292 74.952,42.111 120.587,44.258" fill="#3696d5"/>
+    <polyline points="120.587,44.258 85.093,36.663 81.379,21.292" fill="#36a0d5"/>
+    <ellipse cx="29.317" cy="48.026" rx="6.842" ry="6.953" fill="#000000"/>
+    <line x1="17.132" y1="42.111" x2="39.613" y2="31.216" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10"/>
   </g>
 </svg>

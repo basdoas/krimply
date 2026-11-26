@@ -1,5 +1,6 @@
-COMPONENT: Shrimply application icon
-AUTHOR: sadgabi20
+COMPONENT: Krimply application icon
+AUTHOR: basdoas
+NOTE: Inspired by the Shrimply application icon by sadgabi20
 
 ---
 

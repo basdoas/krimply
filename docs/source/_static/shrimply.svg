@@ -1,33 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <title>Shrimply — Adwaita</title>
-  <desc>A curled orange-to-pink shrimp with a split tail, a raised face, and a continuous shaded sidewall.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
   <defs>
-    <path id="shrimp" d="M12 18H78C99 18 116 37 116 60C116 83 100 102 80 102C91 102 99 92 99 81C99 69 91 61 80 61H48C28 61 12 42 12 18Z M12 77L80 102H34C21 102 12 92 12 77Z M48 77H59C71 77 80 88 80 102Z"/>
-    <linearGradient id="shell" gradientUnits="userSpaceOnUse" x1="22" y1="18" x2="91" y2="102">
-      <stop stop-color="#f6a054"/>
-      <stop offset=".48" stop-color="#fa745a"/>
-      <stop offset="1" stop-color="#f8468d"/>
-    </linearGradient>
-    <linearGradient id="depth" gradientUnits="userSpaceOnUse" x1="12" y1="64" x2="116" y2="64">
-      <stop stop-color="#c65e3b"/>
-      <stop offset=".065" stop-color="#f49a65"/>
-      <stop offset=".14" stop-color="#d97550"/>
-      <stop offset=".25" stop-color="#bd4650"/>
-      <stop offset=".7" stop-color="#bd355e"/>
-      <stop offset=".86" stop-color="#d64276"/>
-      <stop offset=".94" stop-color="#f77a9d"/>
-      <stop offset="1" stop-color="#d74276"/>
+    <linearGradient id="linear-gradient-1" x1="6.924" y1="72.47" x2="122.069" y2="72.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#29abe2"/>
+      <stop offset="1" stop-color="#2e3192"/>
     </linearGradient>
   </defs>
-  <!-- Optical centering balances the heavier upper body. -->
-  <g transform="translate(.5 4)">
-  <!-- One solid sidewall with reflected light at its rounded edges. -->
-  <g fill="url(#depth)">
-    <use href="#shrimp" transform="translate(0 7)"/>
-    <path d="M12 18C12 42 28 61 48 61H80C91 61 99 69 99 81V88C99 76 91 68 80 68H48C28 68 12 49 12 25Z M116 60C116 83 100 102 80 102V109C100 109 116 90 116 67Z M12 77C12 92 21 102 34 102H80V109H34C21 109 12 99 12 84Z M48 77L80 102V109L48 84Z"/>
-  </g>
-  <use href="#shrimp" fill="url(#shell)"/>
-  <circle cx="33.5" cy="34" r="4.5" fill="#302527"/>
+  <title>dev.shrimply.Shrimply.svg</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M117.333 87.345 C103.102 124.369 57.082 137.021 25.924 112.478 C22.895 110.092 24.204 95.298 34.103 104.298 C38.311 108.123 37.346 116.005 48.757 113.298 C55.608 111.672 32.999 98.091 35.366 98.091 C45.445 96.656 52.252 102.427 58.13 109.788 C67.858 121.97 93.054 102.065 91.708 86.533 C90.405 71.502 64.674 72.904 52.252 78.065 C26.218 88.879 -5.181 60.092 10.981 37.278 C24.394 18.345 42.062 21.251 62.402 21.251" fill="#29a0d5" display="none"/>
+    <text transform="matrix(1 0 0 1 52.252 41.074)" x="0" y="0" xml:space="preserve" font-family="&apos;Source Sans 3&apos;, sans-serif" font-size="12" fill="#29abe2"><tspan x="0" y="0">life is fun</tspan><tspan x="0" y="14.4">(:</tspan></text>
+    <path id="_Path_" data-name="&lt;Path&gt;" d="M52.573 74.585 C26.54 85.4 -5.857 57.979 11.405 35.986 C25.34 18.231 43.19 21.292 63.53 21.292 C76.194 21.292 88.083 21.292 100.746 21.292 C123.49 21.292 125.777 63.75 117.333 87.345 C103.812 125.129 57.955 134.933 26.796 110.389 C23.767 108.003 24.204 95.298 34.103 104.298 C38.311 108.123 37.77 114.713 49.181 112.005 C56.032 110.38 26.729 99.298 37.346 97.787 C47.425 96.352 52.676 101.134 58.554 108.496 C68.282 120.678 93.478 100.772 92.132 85.241 C90.829 70.209 64.996 69.425 52.573 74.585 Z" fill="#3689d5" display="none"/>
+    <path id="_Path_-2" data-name="&lt;Path&gt;" d="M11.772 35.986 C25.707 18.231 43.557 21.292 63.897 21.292 L81.379 21.292 L120.587 44.258 C123.391 58.121 122.1 75.049 117.7 87.345 C104.179 125.129 58.321 134.933 27.163 110.389 C24.134 108.003 24.571 95.298 34.47 104.298 C38.678 108.123 45.349 114.891 52.398 114.891 C64.616 115.993 33.099 97.147 37.652 97.885 C47.731 96.45 53.043 101.134 58.921 108.496 C68.649 120.678 93.845 100.772 92.499 85.241 C91.196 70.209 65.363 69.425 52.94 74.585 C26.907 85.4 -5.49 57.979 11.772 35.986 Z" fill="url(#linear-gradient-1)"/>
+    <ellipse id="_Ellipse_" data-name="&lt;Ellipse&gt;" cx="29.317" cy="48.026" rx="6.842" ry="6.953" fill="#000000"/>
+    <line x1="17.132" y1="42.111" x2="39.613" y2="31.216" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10"/>
+    <polyline points="81.379,21.292 29.317,74.367 120.587,44.258" fill="#3655d5"/>
+    <polyline points="81.379,21.292 52.252,59.386 120.587,44.258" fill="#3675d5"/>
+    <polyline points="81.379,21.292 64.496,48.026 120.587,44.258" fill="#3689d5"/>
+    <polyline points="81.379,21.292 74.952,42.111 120.587,44.258" fill="#3696d5"/>
+    <polyline points="120.587,44.258 85.093,36.663 81.379,21.292" fill="#36a0d5"/>
   </g>
 </svg>
