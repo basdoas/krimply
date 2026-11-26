@@ -12,7 +12,6 @@
 **you're telling me a krimp made this video?!**
 brah wtf is a krimp
 
-<img width="1150" height="791" alt="image" src="https://github.com/user-attachments/assets/97bbadac-d930-46ae-9df8-033bd81ab6ce" />
 
 Krimply is a simple yet powerful cross-platform video editor.
 
